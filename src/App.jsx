@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-900 text-white">
+    <div className="min-h-screen dark:bg-zinc-900 bg-zinc-100 text-black dark:text-white">
       <Header />
       <main className="max-w-3xl mx-auto flex-col items-center justify-center px-12 py-32">
         <InputArea onSubmit={handleAddLinks} />
